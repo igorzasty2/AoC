@@ -1,5 +1,3 @@
-from collections import Counter
-
 with open("data/day_9.txt", "r") as f:
     data = f.read().splitlines()
 data = [tuple(map(int, x.split(","))) for x in data]
